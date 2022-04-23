@@ -86,7 +86,7 @@
         <div id = contactsection><h2 id="Contact" class="contactform"> Contact </h2> 
         <h3> <span><a href="https://www.linkedin.com/in/josiah-koh-31185980/" target="_blank">Linkedin Profile</a> </span> </h3></div>
             <h3> <span> <a href="http://www.hulbertkoh.com" target="_blank"> <img src="Josiah 2.jpg" width="20" height="20" alt="A person sitting on a couch reading a book"/> </a> </span> </h3>
-            <form>
+            <form id="contactform" action="https://formspree.io/f/xjvlpvya" method="POST">
                 <label for="name">Name:*</label>
                 <br>
                 <input type="text" id="Name" name="name"
@@ -100,7 +100,7 @@
                 <br>
                 <label for="mobile">Mobile (optional)</label>
                 <br>
-                <input type="tel", name="mobile", id="mobile" pattern="[0-9]{10,16}">
+                <input type="text", name="mobile", id="mobile" pattern="[0-9]">
                 <br>
                 <br>
                 <label for="message">Leave your message below:*</label>
